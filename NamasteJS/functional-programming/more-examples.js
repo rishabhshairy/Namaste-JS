@@ -1,3 +1,11 @@
+const users = [
+  { firstname: "rishabh", lastname: "shairy", age: "25" },
+  { firstname: "avinash", lastname: "tiwari", age: "33" },
+  { firstname: "sourav", lastname: "kumar", age: "18" },
+  { firstname: "abhishek", lastname: "ranjan", age: "25" },
+];
+
+
 const fullNames = users.map((user) => `${user.firstname} ${user.lastname}`);
 console.log(fullNames);
 
